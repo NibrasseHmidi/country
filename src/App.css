@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Lobster&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("https://i2.wp.com/www.leconomistemaghrebin.com/wp-content/uploads/2020/04/Coronavirus-COVID-19-2.jpg?fit=1080%2C795&ssl=1")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ui.select {
+  margin-left: 650px;
+  border: 1px dashed red;
+
+  border-radius: 10px;
+  height: 40px;
+}
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100px;
+  max-width: 100px;
+  width: 500px;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+.section {
+  background-color: #ff3e6c;
+}
+.App {
+  display: flex;
+}
+.corona {
+  border: 1px solid rgb(202, 198, 198);
+  box-shadow: 10px 12px 20px rgb(202, 198, 198);
+}
+.covid_cases {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+.cas_corona {
+  display: flex;
+  flex-direction: column;
+}
+.covid_cases p {
+  color: #333;
+  font-size: 12px;
+  font-family: "Lobster", cursive;
+}
+.span {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.spanTotal {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+}
